@@ -27,9 +27,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const scriptPath = getScriptPath();
     const regex = /iconify-select-plugin(\.min)?\.js/;
     const stylesheetName = scriptPath.replace(regex, 'iconify-select-plugin$1.css').split('?')[0];
-
     const link = document.createElement('link');
-    console.log(stylesheetName);
+
     link.rel = 'stylesheet';
     link.href = stylesheetName;
     document.head.appendChild(link);
