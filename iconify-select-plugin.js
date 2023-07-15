@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const iconifyColorInput = document.querySelector(`.${dialog.dataset.color_input}`);
 
     iconifySelectInput.value = iconCode;
-    iconifyColorInput.value = rgbToHex(colorCode);
+    iconifyColorInput.value = rgbToHex(colorCode).toUpperCase();
 
     dialog?.close();
     dialog?.remove();
@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (match) {
       const [, r, g, b] = match;
       const hex = ((r << 16) | (g << 8) | b).toString(16).padStart(6, '0');
-      return `#${hex.toUpperCase}`;
+      return `#${hex}`;
     }
 
     return rgbColor;
