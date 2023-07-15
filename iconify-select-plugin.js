@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (match) {
       const [, r, g, b] = match;
       const hex = ((r << 16) | (g << 8) | b).toString(16).padStart(6, '0');
-      return `#${hex}`;
+      return `#${hex.toUpperCase}`;
     }
 
     return rgbColor;
