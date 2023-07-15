@@ -1,0 +1,37 @@
+.iconify-modal {
+    width: 30%;
+    min-width: 200px;
+    max-height: 85vh;
+    position: relative;
+    border: 1px solid #555;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.iconify-close-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.iconify-modal-icon {
+    width: calc(50% - 2px);
+    display: inline-grid;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding: 1px;
+}
+.iconify-modal-icon:hover {
+    cursor: pointer;
+    padding: 0;
+    border: 1px solid #DDD;
+    background-color: rgba(0, 0, 0, 0.01);
+}
+.iconify-modal form {
+    display: flex;
+    justify-content: center;
+}
+.iconify-modal input,
+.iconify-modal button {
+    height: 30px;
+    border: 1px solid #CCC;
+}
