@@ -1,0 +1,17 @@
+{
+  "name": "iconify-select-plugin",
+  "version": "1.0.0",
+  "description": "Iconify Select Plugin enhances icon selection with a user-friendly interface and efficient searching.",
+  "main": "iconify-select-plugin.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToX82/iconify-select-plugin.git"
+  },
+  "keywords": ["iconify", "icon", "selection", "plugin"],
+  "author": "Emanuele 'ToX' Toscano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ToX82/iconify-select-plugin/issues"
+  },
+  "homepage": "https://github.com/ToX82/iconify-select-plugin#readme"
+}
