@@ -1,6 +1,6 @@
 {
   "name": "iconify-select-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Iconify Select Plugin enhances icon selection with a user-friendly interface and efficient searching.",
   "main": "iconify-select-plugin.js",
   "repository": {

@@ -17,7 +17,7 @@ Check it out [here](https://tox82.github.io/iconify-select-plugin/).
 
 To use Iconify Select Plugin, add the following script tag to your webpage:
 
-    <script src="iconify-select-plugin.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-select-plugin@1/iconify-select-plugin.min.js"></script>
 
 Next, add an HTML element that loads the iconify-select-plugin, specifying the data-icon-input and data-color-input parameters.
 These parameters refer to the classes of two separate inputs where the module will write the icon code and color of your selection.
